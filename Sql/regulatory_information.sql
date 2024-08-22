@@ -1,0 +1,15 @@
+create table if not exists regulatory_information(
+safe_banking Integer not null,
+rbi_awareness_campaign varchar(255) null,
+beware_of_ficticious_offer varchar(255) null,
+regulatory_disclosure Integer null,
+access_info_count Integer null,
+unclaimed_deposits varchar(255) null,
+unclaimed_account_ids Integer null,
+media_center Integer null,
+form_center varchar(255) null,
+customer_care_number Integer null,
+complaints_count Integer null,
+complaints_addressed varchar(255) null,
+remarks varchar(255) null,
+constraint regulatory_information_pk primary key(safe_banking));
